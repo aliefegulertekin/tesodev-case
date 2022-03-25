@@ -1,0 +1,33 @@
+.list-page-container {
+    padding-top: 35px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.login {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.input {
+    margin-left: 35px;
+}
+
+
+
+.post-list-img-container {
+    width: 149px;
+    height: 63px;
+    background: url('../../../public/img/post-list-img.png');
+}
+
+.button {
+    background-color: #4F75C2;
+    margin-left: 24px;
+    border: none;
+}
+
+
+

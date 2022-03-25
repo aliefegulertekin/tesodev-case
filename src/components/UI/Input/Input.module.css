@@ -1,0 +1,12 @@
+.input {
+    width: 709px;
+    height: 46px;
+    padding-left: 0.5rem;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+
+.input:hover {
+    background-color: #64646414;
+    border-color: rgba(0, 0,0, 0.6);
+}

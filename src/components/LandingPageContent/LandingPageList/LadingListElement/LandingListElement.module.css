@@ -1,0 +1,9 @@
+.landing-list-element {
+    list-style: none;
+    border-bottom: 1px solid #585858;
+    margin-top: 10px;
+    height: 50px;
+    padding-bottom: 0.5rem;
+    width: 644px;
+    font-size: 18px;
+}
