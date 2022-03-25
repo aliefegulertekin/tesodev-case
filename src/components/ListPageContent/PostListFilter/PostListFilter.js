@@ -10,17 +10,18 @@ const PostListFilter = ({filteredList}) => {
     useEffect(()=>{
         switch(data) {
             case 'name-ascending':
-                const a = filteredList.sort(function(a,b){
-                    return a.localeCompare(b);
-                })
-                console.log(a);
+                const nameAscendedValue = filteredList.sort((a,b) => a > b)
+                
                 break
             case 'name-descending':
-                const c = filteredList.sort(function(a,b){
-                    return b.localeCompare(a);
-                })
-                console.log(c);
+                const nameDescendedValue = filteredList.sort((a,b) => a < b)
                 
+                break
+            case 'year-ascending':
+                const yearAscendedValue = filteredList.sort((a,b) => a > b)
+                break
+            case 'year-descending':
+                const yearDescendedValue = filteredList.sort((a,b) => a < b)     
                 break
         }
     },[data])

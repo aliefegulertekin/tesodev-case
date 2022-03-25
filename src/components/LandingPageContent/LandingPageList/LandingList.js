@@ -8,11 +8,6 @@ import Card from "../../UI/Card/Card";
 const LandingList = props => {
 
 
-//    
-//     <span>{post[0]}</span> 
-//     <span>Email: {post[2]}</span> 
-// <span className={classes['element_date']} >{post[3]}</span> 
-
     return (
     <React.Fragment>
         <Card className={ `${props.className} ${classes['landing-list']}`}>
